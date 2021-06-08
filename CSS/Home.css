@@ -1,0 +1,168 @@
+/*Home Page*/
+.firstSection{
+    margin: 10px;
+    padding: 0px;
+    display: block;
+    width: 100px;
+    height: 10px;
+}
+.secontSection{
+    display: block;
+    margin-top: 300px;
+
+}
+section{
+    display: block;
+}
+.btn{
+    color: white;
+    background-color: black;
+    border-color: black;
+    font-family: serif , sans-serif;
+    font-size: 25px;
+    
+}
+#signbtn{
+    color: red;
+}
+.btn:hover{
+    background-color: red;
+}
+#mainButtons{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 700px;
+}
+#spanAcademy{
+    color: red;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+/* The navigation bar */
+.navbar {
+  font-family: monospace, sans-serif;
+  overflow: visible;
+  background-color: #000;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  width: 100%; /* Full width */
+}
+.navbar a {
+  float:  left;
+  display: block;
+  color: #f2f2f2;
+  text-align: right;
+  padding: 6px 20px;
+  text-decoration: none;
+}
+.content{
+    position: fixed;
+    bottom: 1;
+    width: 100%;
+    padding: 20px;
+
+}
+h1{
+    margin-top: 6px;
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+a{
+    margin-bottom: 10px;
+}
+/* Add some content at the bottom of the video/page */
+.contentText {
+  position: fixed;
+  bottom: 10;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  
+}
+#paragraphHardWord{
+    margin-top: 0px;
+    margin-left: 400PX;
+  font-size: 40px;
+    margin-bottom: 0px;
+}
+#headerHOne{
+    margin-left: 200PX;
+  font-size: 80px;
+    margin-bottom: 0px;
+}
+
+/*About Page*/
+#aboutparagraph{
+  font-size: 25px;
+  margin-left: 30px;
+  margin-right:30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: cairo, sans-serif;
+}
+
+/*Classes Page*/
+#ClassesID{
+  position: fixed;
+  bottom: 10;
+  font-family: serif, sans-serif, inherit;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  padding: 10px;
+  width: 90%;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 150px;
+}
+
+/*Contacgt page*/
+* {box-sizing: border-box;}
+#contactID{
+  scroll-behavior: auto|smooth|initial|inherit;
+  position: absolute;
+  padding: : 300px;
+  top: 20%;
+  left: 25%;
+  text-align: left;  
+  font-family: serif, sans-serif, inherit;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 50%;
+  /*margin-top: 90px;
+  margin-left: 300px;*/
+
+
+  border-radius: 5px;
+  padding: 20px;
+
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+input[type=text],input[type=email],input[type=tel], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-sizing: border-box;
+}
